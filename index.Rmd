@@ -1,5 +1,5 @@
 ---
-title       : "Data Science Capstone: NLP App Pitch"
+title       : "Data Science Capstone:\n NLP App Pitch"
 subtitle    : "January 4th, 2020"
 author      : "xubRAw (GH)"
 job         : 
