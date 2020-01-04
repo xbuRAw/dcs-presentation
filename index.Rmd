@@ -1,7 +1,7 @@
 ---
-title       : 
+title       : "DCS: Pitch"
 subtitle    : 
-author      : 
+author      : "xubRAw (GH)"
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -20,7 +20,7 @@ knit        : slidify::knit2slides
 --- .class #id 
 
 ## Slide 2
-
+a long journey will begin
 
 
 
