@@ -5,8 +5,8 @@ author      : "xubRAw (GH)"
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : prettify  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : [mathjax, bootstrap]            # {mathjax, quiz, bootstrap}
+hitheme     :            # 
+widgets     : []         # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft, selfcontained}
 knit        : slidify::knit2slides
 ---
@@ -22,6 +22,7 @@ that was build during the course, accessible by deploying a [shiny web app](http
 - this algorithm is not to complex and very versatile and can be deployed on systems with limited computational resources
 - an exploratory analysis was conducted in week 2 to explore the data set and its features
 - various possibilities for the improvement of speed and accuracy  of the model were explored and balanced to create a responsive experience in the app
+<hr>
 
 --- .class #id 
 
@@ -33,20 +34,21 @@ that was build during the course, accessible by deploying a [shiny web app](http
 - by doing so the algorithm provides the best prediction under the constraints of the conditions given
 - for this project I had mainly computational constraints which made it important that the algorithm is responsive rather than extremely accurate
 - in the current state the model is only trained with an English corpus, but in the future I want to expand the model / app to include more languages
+<hr>
 
 --- .class #id
 
 ## short description of the app
 
 - provides a text input field for a user to type a word / phrase
-
 - the app detects the words and predicts the next word reactively
-
 - inconclusive warning if the algorithm fails to make a proper prediction
-
 - prediction uses the the longest, most frequent, matching n-gram
-
 - the app has a documentation tap with informative links regarding the topic
+- response time ~1 second
+- memory usage ca. 30 mb
+- link to app: [xburaw.shinyapps.io/c10shinyapp/](https://xburaw.shinyapps.io/c10shinyapp/)
+<hr>
 
 --- .class #id
 
@@ -55,6 +57,3 @@ that was build during the course, accessible by deploying a [shiny web app](http
   <figcaption>Screenshot of the user interface.</figcaption>
 </figure> 
 <hr>
-- link to the app: [xburaw.shinyapps.io/c10shinyapp/](https://xburaw.shinyapps.io/c10shinyapp/)
-- response time ~1 second
-- memory usage ca. 30 mb
