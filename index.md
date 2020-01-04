@@ -1,6 +1,6 @@
 ---
 title       : "Data Science Capstone: NLP App Pitch"
-subtitle    : "January 4rd, 2020"
+subtitle    : "January 4th, 2020"
 author      : "xubRAw (GH)"
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
